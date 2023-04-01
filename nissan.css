@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+}
+header{
+   
+    min-height: 100vh;    
+    background: url(./IMAGES/Nissan2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2pc;
+}
+.header2{
+    margin-left: 2pc;
+    margin-top: 2pc;
+    font-family: sans-serif;
+}
+.header3{
+user-select: none;
+transition: all 0.5s;
+}
+.header3:hover{
+color: rgb(92, 72, 72);
+}
+
+button{
+    margin-top: 2pc;
+    padding: 15px 44px;
+    font-size: 18px;
+    color: aliceblue;
+    background-color: rgb(204, 43, 43);
+ user-select: none;
+transition: all 0.5s;
+ 
+}
+button:hover{
+  background-color: rgb(92, 72, 72);
+}
+.headingsec{
+    background-color: blue;
+    width: 100%;
+    height: 680px;
+    
+}
+.nissanimg1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.book{
+    border-bottom: 1px dashed #c1c1c1;
+    border-width: 0 0 1px;
+    font-size: 18px;
+    font-family: system-ui;
+}
+.trdpage{
+    width: 100%;
+    height: 650px;
+    
+}
+.trdphoto{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2pc;
+    font-family: system-ui;
+
+}
+.frthpage{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(218, 233, 233);
+    margin-left: 10px;
+    margin-right: 100px;
+
+}
+.frth{
+    margin-left: 21pc;
+    padding-top: 5pc;
+    font-family: system-ui;
+    font-size: 25px;
+   
+}
+.fthphoto{
+
+ display: flex;
+ flex-wrap: wrap; 
+ margin-top: 4pc;
+}
+.fth{
+    margin-left: 12pc;
+    font-family: system-ui;
+}
+.fifthpage{
+    width: 100%;
+    height: 850px;
+   
+}
+.fifth{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fif{
+    margin-left: 10px;
+    margin-top: 2pc;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sixthpage{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   width: 100%;
+   height: 6oopx;
+   background-color: rgb(46, 43, 42);
+
+}
+ul{
+    padding-top: 3pc;
+    color: #c1c1c1;
+    list-style: none;
+   line-height: 3pc;
+   font-family: system-ui;
+}
+
+    
